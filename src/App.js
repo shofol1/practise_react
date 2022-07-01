@@ -5,6 +5,8 @@ import FunctionCom from "./components/FunctionCom";
 import CheckCom from "./components/CheckCom";
 import FormCom from "./components/FormCom";
 import FormFunc from "./components/FormFunc";
+import MappingCom from "./components/MappingCom";
+import PlaceJsonCom from "./components/PlaceJsonCom";
 
 function App() {
   return (
@@ -12,8 +14,10 @@ function App() {
       {/* <ClassCom shofol="shofol" shanto="shanto" /> */}
       {/* <FunctionCom shanto="shanto" shofol="shofol" /> */}
       {/* <CheckCom /> */}
-      <FormCom />
+      {/* <FormCom /> */}
       {/* <FormFunc /> */}
+      {/* <MappingCom /> */}
+      <PlaceJsonCom />
     </div>
   );
 }
